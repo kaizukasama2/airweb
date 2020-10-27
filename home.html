@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+<style>
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5cm;
+    background-color: black;
+}
+
+
+   
+
+#header {
+    background: black;
+    font-family: Arial;
+    height: 72px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#262626;
+}
+
+li {
+    float: left;
+    /* border-right: 1px solid #bbb; */
+}
+
+.loginText{
+    color: #FFB703;
+    float: right;
+    font-size: 15;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px 18px;
+    text-decoration: none;
+}
+
+li:last-child {
+    border-right: none;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 18px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: #808080;
+}
+.active{
+    background-color: #FFB703;
+
+
+
+}
+
+
+
+.btn {
+  border: 2px solid #FFB703;
+  background-color: black;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.getStarted {
+    position: relative;
+    top: 250px;
+    right: 300px;
+  border-color: #FFB703;
+  color: white;
+}
+
+.getStarted:hover {
+  background-color: #FFB703;;
+  color: black;
+}
+
+
+
+
+
+#Div2{
+    width: auto;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#LogoDiv{
+    width:600px;
+    float: left;
+
+}
+#Logo{
+    align-self: center;
+
+}
+
+#TextDiv{
+    width: 60%px;
+    height: 500px;
+    float: right;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+#BigText{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    
+}
+
+
+
+</style>
+    
+</head>
+<body background-color='black'>
+    <div id="container">
+        <div id="header">
+            <ul style="display:inline">
+                <li><a class="active" href="#Home">Home</a></li>
+                <li><a href="#Courses ">Courses</a></li>
+                <li><a href="#Material">Material</a></li>
+                <li><a href="#Contact">Contact</a></li>
+
+            </ul>
+
+            <a class="loginText" href="#Login">LOGIN</a>
+        </div>
+
+
+    <div id="Div2">
+        <div id="LogoDiv">
+            <img src="logo.png" alt="AIR">
+        </div>
+        
+        <div id="TextDiv">
+            
+               <font id="BigText">Join The Academic <b>Revolution</b></font>
+                <button class="btn getStarted">Get Started</button>
+
+            
+        </div>
+
+    </div>
+  
+</body>
+</html>
